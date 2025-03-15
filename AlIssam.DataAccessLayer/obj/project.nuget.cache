@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3+KvZs+ug2Q=",
+  "dgSpecHash": "v66ERGtOCcw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AlIssam\\AlIssam.DataAccessLayer\\AlIssam.DataAccessLayer.csproj",
+  "projectFilePath": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.DataAccessLayer\\AlIssam.DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mahm1\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\mahm1\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

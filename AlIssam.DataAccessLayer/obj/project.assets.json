@@ -4186,11 +4186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AlIssam\\AlIssam.DataAccessLayer\\AlIssam.DataAccessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.DataAccessLayer\\AlIssam.DataAccessLayer.csproj",
       "projectName": "AlIssam.DataAccessLayer",
-      "projectPath": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AlIssam\\AlIssam.DataAccessLayer\\AlIssam.DataAccessLayer.csproj",
+      "projectPath": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.DataAccessLayer\\AlIssam.DataAccessLayer.csproj",
       "packagesPath": "C:\\Users\\mahm1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AlIssam\\AlIssam.DataAccessLayer\\obj\\",
+      "outputPath": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mahm1\\AppData\\Roaming\\NuGet\\NuGet.Config"

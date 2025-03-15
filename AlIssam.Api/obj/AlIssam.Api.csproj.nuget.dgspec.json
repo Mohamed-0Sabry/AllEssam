@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AlIssam\\AlIssam.Api\\AlIssam.Api.csproj": {}
+    "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.Api\\AlIssam.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AlIssam\\AlIssam.Api\\AlIssam.Api.csproj": {
+    "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.Api\\AlIssam.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AlIssam\\AlIssam.Api\\AlIssam.Api.csproj",
+        "projectUniqueName": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.Api\\AlIssam.Api.csproj",
         "projectName": "AlIssam.Api",
-        "projectPath": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AlIssam\\AlIssam.Api\\AlIssam.Api.csproj",
+        "projectPath": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.Api\\AlIssam.Api.csproj",
         "packagesPath": "C:\\Users\\mahm1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AlIssam\\AlIssam.Api\\obj\\",
+        "outputPath": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mahm1\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AlIssam\\AlIssam.DataAccessLayer\\AlIssam.DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AlIssam\\AlIssam.DataAccessLayer\\AlIssam.DataAccessLayer.csproj"
+              "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.DataAccessLayer\\AlIssam.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.DataAccessLayer\\AlIssam.DataAccessLayer.csproj"
               }
             }
           }
@@ -134,14 +134,14 @@
         }
       }
     },
-    "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AlIssam\\AlIssam.DataAccessLayer\\AlIssam.DataAccessLayer.csproj": {
+    "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.DataAccessLayer\\AlIssam.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AlIssam\\AlIssam.DataAccessLayer\\AlIssam.DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.DataAccessLayer\\AlIssam.DataAccessLayer.csproj",
         "projectName": "AlIssam.DataAccessLayer",
-        "projectPath": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AlIssam\\AlIssam.DataAccessLayer\\AlIssam.DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.DataAccessLayer\\AlIssam.DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\mahm1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AlIssam\\AlIssam.DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mahm1\\AppData\\Roaming\\NuGet\\NuGet.Config"

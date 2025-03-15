@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SesfZt8eD40=",
+  "dgSpecHash": "ycsi1xQ1l+M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AlIssam\\AlIssam.Api\\AlIssam.Api.csproj",
+  "projectFilePath": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.Api\\AlIssam.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mahm1\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\mahm1\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

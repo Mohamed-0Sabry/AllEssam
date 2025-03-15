@@ -46,8 +46,7 @@ namespace AlIssam.Api.Controllers
 
             try
             {
-                var signatureHeader = "Pz238TJPfDQl9EWn7I0UWqn2feqMQV5Gn15i49+8qHQ=";
-                // var signatureHeader = Request.Headers["MyFatoorah-Signature"].ToString();
+                var signatureHeader = Request.Headers["MyFatoorah-Signature"].ToString();
                 var secretKey = _configuration["Fatoorah:SecretKey"];
 
                 _logger.LogInformation($"Received Webhook: {JsonConvert.SerializeObject(model, Formatting.Indented)}");
