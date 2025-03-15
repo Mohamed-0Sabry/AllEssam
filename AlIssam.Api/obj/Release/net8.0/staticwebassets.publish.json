@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "FTGK89kbHGr4mqr9L8Hf8Ubm+ICoZw322evStstWcNo=",
+  "Source": "AlIssam.Api",
+  "BasePath": "_content/AlIssam.Api",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AlIssam.Api\\wwwroot",
+      "Source": "AlIssam.Api",
+      "ContentRoot": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AlIssam\\AlIssam.Api\\wwwroot\\",
+      "BasePath": "_content/AlIssam.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

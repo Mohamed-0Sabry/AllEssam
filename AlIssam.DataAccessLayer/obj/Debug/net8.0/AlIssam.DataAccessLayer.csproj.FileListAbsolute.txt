@@ -1,0 +1,84 @@
+C:\Users\tamim\Desktop\AlIssam\AlIssam.DataAccessLayer\bin\Debug\net8.0\AlIssam.DataAccessLayer.deps.json
+C:\Users\tamim\Desktop\AlIssam\AlIssam.DataAccessLayer\bin\Debug\net8.0\AlIssam.DataAccessLayer.runtimeconfig.json
+C:\Users\tamim\Desktop\AlIssam\AlIssam.DataAccessLayer\bin\Debug\net8.0\AlIssam.DataAccessLayer.dll
+C:\Users\tamim\Desktop\AlIssam\AlIssam.DataAccessLayer\bin\Debug\net8.0\AlIssam.DataAccessLayer.pdb
+C:\Users\tamim\Desktop\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\tamim\Desktop\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tamim\Desktop\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\tamim\Desktop\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.AssemblyInfo.cs
+C:\Users\tamim\Desktop\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\tamim\Desktop\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.dll
+C:\Users\tamim\Desktop\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\refint\AlIssam.DataAccessLayer.dll
+C:\Users\tamim\Desktop\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.pdb
+C:\Users\tamim\Desktop\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.genruntimeconfig.cache
+C:\Users\tamim\Desktop\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\ref\AlIssam.DataAccessLayer.dll
+C:\Users\H1202\Downloads\AlIssam\AlIssam\AlIssam.DataAccessLayer\bin\Debug\net8.0\AlIssam.DataAccessLayer.deps.json
+C:\Users\H1202\Downloads\AlIssam\AlIssam\AlIssam.DataAccessLayer\bin\Debug\net8.0\AlIssam.DataAccessLayer.runtimeconfig.json
+C:\Users\H1202\Downloads\AlIssam\AlIssam\AlIssam.DataAccessLayer\bin\Debug\net8.0\AlIssam.DataAccessLayer.dll
+C:\Users\H1202\Downloads\AlIssam\AlIssam\AlIssam.DataAccessLayer\bin\Debug\net8.0\AlIssam.DataAccessLayer.pdb
+C:\Users\H1202\Downloads\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\H1202\Downloads\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\H1202\Downloads\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\H1202\Downloads\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.AssemblyInfo.cs
+C:\Users\H1202\Downloads\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\H1202\Downloads\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.dll
+C:\Users\H1202\Downloads\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\refint\AlIssam.DataAccessLayer.dll
+C:\Users\H1202\Downloads\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.pdb
+C:\Users\H1202\Downloads\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.genruntimeconfig.cache
+C:\Users\H1202\Downloads\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\ref\AlIssam.DataAccessLayer.dll
+C:\Users\tamim\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\bin\Debug\net8.0\AlIssam.DataAccessLayer.deps.json
+C:\Users\tamim\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\bin\Debug\net8.0\AlIssam.DataAccessLayer.runtimeconfig.json
+C:\Users\tamim\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\bin\Debug\net8.0\AlIssam.DataAccessLayer.dll
+C:\Users\tamim\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\bin\Debug\net8.0\AlIssam.DataAccessLayer.pdb
+C:\Users\tamim\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\tamim\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tamim\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\tamim\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.AssemblyInfo.cs
+C:\Users\tamim\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\tamim\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.dll
+C:\Users\tamim\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\refint\AlIssam.DataAccessLayer.dll
+C:\Users\tamim\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.pdb
+C:\Users\tamim\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.genruntimeconfig.cache
+C:\Users\tamim\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\ref\AlIssam.DataAccessLayer.dll
+C:\Users\H1202\Desktop\AlIssam\AlIssam.DataAccessLayer\bin\Debug\net8.0\AlIssam.DataAccessLayer.deps.json
+C:\Users\H1202\Desktop\AlIssam\AlIssam.DataAccessLayer\bin\Debug\net8.0\AlIssam.DataAccessLayer.runtimeconfig.json
+C:\Users\H1202\Desktop\AlIssam\AlIssam.DataAccessLayer\bin\Debug\net8.0\AlIssam.DataAccessLayer.dll
+C:\Users\H1202\Desktop\AlIssam\AlIssam.DataAccessLayer\bin\Debug\net8.0\AlIssam.DataAccessLayer.pdb
+C:\Users\H1202\Desktop\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\H1202\Desktop\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\H1202\Desktop\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\H1202\Desktop\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.AssemblyInfo.cs
+C:\Users\H1202\Desktop\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\H1202\Desktop\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.dll
+C:\Users\H1202\Desktop\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\refint\AlIssam.DataAccessLayer.dll
+C:\Users\H1202\Desktop\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.pdb
+C:\Users\H1202\Desktop\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.genruntimeconfig.cache
+C:\Users\H1202\Desktop\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\ref\AlIssam.DataAccessLayer.dll
+C:\Users\H1202\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\bin\Debug\net8.0\AlIssam.DataAccessLayer.deps.json
+C:\Users\H1202\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\bin\Debug\net8.0\AlIssam.DataAccessLayer.runtimeconfig.json
+C:\Users\H1202\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\bin\Debug\net8.0\AlIssam.DataAccessLayer.dll
+C:\Users\H1202\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\bin\Debug\net8.0\AlIssam.DataAccessLayer.pdb
+C:\Users\H1202\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\H1202\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\H1202\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\H1202\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.AssemblyInfo.cs
+C:\Users\H1202\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\H1202\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.dll
+C:\Users\H1202\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\refint\AlIssam.DataAccessLayer.dll
+C:\Users\H1202\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.pdb
+C:\Users\H1202\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.genruntimeconfig.cache
+C:\Users\H1202\Desktop\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\ref\AlIssam.DataAccessLayer.dll
+C:\Users\mahm1\OneDrive\Documents\GitHub\Freelancing Project\AlIssam\AlIssam\AlIssam.DataAccessLayer\bin\Debug\net8.0\AlIssam.DataAccessLayer.deps.json
+C:\Users\mahm1\OneDrive\Documents\GitHub\Freelancing Project\AlIssam\AlIssam\AlIssam.DataAccessLayer\bin\Debug\net8.0\AlIssam.DataAccessLayer.runtimeconfig.json
+C:\Users\mahm1\OneDrive\Documents\GitHub\Freelancing Project\AlIssam\AlIssam\AlIssam.DataAccessLayer\bin\Debug\net8.0\AlIssam.DataAccessLayer.dll
+C:\Users\mahm1\OneDrive\Documents\GitHub\Freelancing Project\AlIssam\AlIssam\AlIssam.DataAccessLayer\bin\Debug\net8.0\AlIssam.DataAccessLayer.pdb
+C:\Users\mahm1\OneDrive\Documents\GitHub\Freelancing Project\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\mahm1\OneDrive\Documents\GitHub\Freelancing Project\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahm1\OneDrive\Documents\GitHub\Freelancing Project\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\mahm1\OneDrive\Documents\GitHub\Freelancing Project\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.AssemblyInfo.cs
+C:\Users\mahm1\OneDrive\Documents\GitHub\Freelancing Project\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\mahm1\OneDrive\Documents\GitHub\Freelancing Project\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.dll
+C:\Users\mahm1\OneDrive\Documents\GitHub\Freelancing Project\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\refint\AlIssam.DataAccessLayer.dll
+C:\Users\mahm1\OneDrive\Documents\GitHub\Freelancing Project\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.pdb
+C:\Users\mahm1\OneDrive\Documents\GitHub\Freelancing Project\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\AlIssam.DataAccessLayer.genruntimeconfig.cache
+C:\Users\mahm1\OneDrive\Documents\GitHub\Freelancing Project\AlIssam\AlIssam\AlIssam.DataAccessLayer\obj\Debug\net8.0\ref\AlIssam.DataAccessLayer.dll

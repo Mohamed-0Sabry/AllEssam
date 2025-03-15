@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlIssam.DataAccessLayer", "AlIssam.DataAccessLayer\AlIssam.DataAccessLayer.csproj", "{844C52EF-939F-4DD0-8086-D7A8F837D8E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlIssam.Api", "AlIssam.Api\AlIssam.Api.csproj", "{521484D2-0AEB-464E-ACEF-C48FF60A4C3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{844C52EF-939F-4DD0-8086-D7A8F837D8E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{844C52EF-939F-4DD0-8086-D7A8F837D8E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{844C52EF-939F-4DD0-8086-D7A8F837D8E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{844C52EF-939F-4DD0-8086-D7A8F837D8E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{521484D2-0AEB-464E-ACEF-C48FF60A4C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521484D2-0AEB-464E-ACEF-C48FF60A4C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521484D2-0AEB-464E-ACEF-C48FF60A4C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521484D2-0AEB-464E-ACEF-C48FF60A4C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

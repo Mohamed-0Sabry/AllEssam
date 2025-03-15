@@ -1,0 +1,215 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\H1202\\Desktop\\AlIssam\\AlIssam\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{521484D2-0AEB-464E-ACEF-C48FF60A4C3D}|AlIssam.Api\\AlIssam.Api.csproj|c:\\users\\h1202\\desktop\\alissam\\alissam\\alissam.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521484D2-0AEB-464E-ACEF-C48FF60A4C3D}|AlIssam.Api\\AlIssam.Api.csproj|solutionrelative:alissam.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521484D2-0AEB-464E-ACEF-C48FF60A4C3D}|AlIssam.Api\\AlIssam.Api.csproj|c:\\users\\h1202\\desktop\\alissam\\alissam\\alissam.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521484D2-0AEB-464E-ACEF-C48FF60A4C3D}|AlIssam.Api\\AlIssam.Api.csproj|solutionrelative:alissam.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521484D2-0AEB-464E-ACEF-C48FF60A4C3D}|AlIssam.Api\\AlIssam.Api.csproj|c:\\users\\h1202\\desktop\\alissam\\alissam\\alissam.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521484D2-0AEB-464E-ACEF-C48FF60A4C3D}|AlIssam.Api\\AlIssam.Api.csproj|solutionrelative:alissam.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521484D2-0AEB-464E-ACEF-C48FF60A4C3D}|AlIssam.Api\\AlIssam.Api.csproj|c:\\users\\h1202\\desktop\\alissam\\alissam\\alissam.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521484D2-0AEB-464E-ACEF-C48FF60A4C3D}|AlIssam.Api\\AlIssam.Api.csproj|solutionrelative:alissam.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521484D2-0AEB-464E-ACEF-C48FF60A4C3D}|AlIssam.Api\\AlIssam.Api.csproj|c:\\users\\h1202\\desktop\\alissam\\alissam\\alissam.api\\controllers\\discountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521484D2-0AEB-464E-ACEF-C48FF60A4C3D}|AlIssam.Api\\AlIssam.Api.csproj|solutionrelative:alissam.api\\controllers\\discountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521484D2-0AEB-464E-ACEF-C48FF60A4C3D}|AlIssam.Api\\AlIssam.Api.csproj|c:\\users\\h1202\\desktop\\alissam\\alissam\\alissam.api\\controllers\\contactinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521484D2-0AEB-464E-ACEF-C48FF60A4C3D}|AlIssam.Api\\AlIssam.Api.csproj|solutionrelative:alissam.api\\controllers\\contactinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521484D2-0AEB-464E-ACEF-C48FF60A4C3D}|AlIssam.Api\\AlIssam.Api.csproj|c:\\users\\h1202\\desktop\\alissam\\alissam\\alissam.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521484D2-0AEB-464E-ACEF-C48FF60A4C3D}|AlIssam.Api\\AlIssam.Api.csproj|solutionrelative:alissam.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521484D2-0AEB-464E-ACEF-C48FF60A4C3D}|AlIssam.Api\\AlIssam.Api.csproj|c:\\users\\h1202\\desktop\\alissam\\alissam\\alissam.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521484D2-0AEB-464E-ACEF-C48FF60A4C3D}|AlIssam.Api\\AlIssam.Api.csproj|solutionrelative:alissam.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521484D2-0AEB-464E-ACEF-C48FF60A4C3D}|AlIssam.Api\\AlIssam.Api.csproj|c:\\users\\h1202\\desktop\\alissam\\alissam\\alissam.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521484D2-0AEB-464E-ACEF-C48FF60A4C3D}|AlIssam.Api\\AlIssam.Api.csproj|solutionrelative:alissam.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521484D2-0AEB-464E-ACEF-C48FF60A4C3D}|AlIssam.Api\\AlIssam.Api.csproj|c:\\users\\h1202\\desktop\\alissam\\alissam\\alissam.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{521484D2-0AEB-464E-ACEF-C48FF60A4C3D}|AlIssam.Api\\AlIssam.Api.csproj|solutionrelative:alissam.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521484D2-0AEB-464E-ACEF-C48FF60A4C3D}|AlIssam.Api\\AlIssam.Api.csproj|c:\\users\\h1202\\desktop\\alissam\\alissam\\alissam.api\\config\\emailserviceconfigruation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521484D2-0AEB-464E-ACEF-C48FF60A4C3D}|AlIssam.Api\\AlIssam.Api.csproj|solutionrelative:alissam.api\\config\\emailserviceconfigruation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\AlIssam\\AlIssam\\AlIssam.Api\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "AlIssam.Api\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\AlIssam\\AlIssam\\AlIssam.Api\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "AlIssam.Api\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T18:31:33.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DiscountController.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\AlIssam\\AlIssam\\AlIssam.Api\\Controllers\\DiscountController.cs",
+              "RelativeDocumentMoniker": "AlIssam.Api\\Controllers\\DiscountController.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\AlIssam\\AlIssam\\AlIssam.Api\\Controllers\\DiscountController.cs",
+              "RelativeToolTip": "AlIssam.Api\\Controllers\\DiscountController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T18:24:04.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\AlIssam\\AlIssam\\AlIssam.Api\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "AlIssam.Api\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\AlIssam\\AlIssam\\AlIssam.Api\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "AlIssam.Api\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCIAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T18:16:29.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContactInfoController.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\AlIssam\\AlIssam\\AlIssam.Api\\Controllers\\ContactInfoController.cs",
+              "RelativeDocumentMoniker": "AlIssam.Api\\Controllers\\ContactInfoController.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\AlIssam\\AlIssam\\AlIssam.Api\\Controllers\\ContactInfoController.cs",
+              "RelativeToolTip": "AlIssam.Api\\Controllers\\ContactInfoController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T18:16:09.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\AlIssam\\AlIssam\\AlIssam.Api\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "AlIssam.Api\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\AlIssam\\AlIssam\\AlIssam.Api\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "AlIssam.Api\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T18:13:49.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\AlIssam\\AlIssam\\AlIssam.Api\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "AlIssam.Api\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\AlIssam\\AlIssam\\AlIssam.Api\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "AlIssam.Api\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAIAowJMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T17:53:39.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\AlIssam\\AlIssam\\AlIssam.Api\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "AlIssam.Api\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\AlIssam\\AlIssam\\AlIssam.Api\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "AlIssam.Api\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAABQAAAAAzczMzIwvwC8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T00:33:22.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\AlIssam\\AlIssam\\AlIssam.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "AlIssam.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\AlIssam\\AlIssam\\AlIssam.Api\\appsettings.json",
+              "RelativeToolTip": "AlIssam.Api\\appsettings.json",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-10T23:57:24.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\AlIssam\\AlIssam\\AlIssam.Api\\Program.cs",
+              "RelativeDocumentMoniker": "AlIssam.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\AlIssam\\AlIssam\\AlIssam.Api\\Program.cs",
+              "RelativeToolTip": "AlIssam.Api\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T23:57:08.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmailServiceConfigruation.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\AlIssam\\AlIssam\\AlIssam.Api\\Config\\EmailServiceConfigruation.cs",
+              "RelativeDocumentMoniker": "AlIssam.Api\\Config\\EmailServiceConfigruation.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\AlIssam\\AlIssam\\AlIssam.Api\\Config\\EmailServiceConfigruation.cs",
+              "RelativeToolTip": "AlIssam.Api\\Config\\EmailServiceConfigruation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T02:08:59.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\AlIssam\\AlIssam\\AlIssam.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AlIssam.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\AlIssam\\AlIssam\\AlIssam.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AlIssam.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAADYAAAAAmZmZmRkUwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T00:21:08.073Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

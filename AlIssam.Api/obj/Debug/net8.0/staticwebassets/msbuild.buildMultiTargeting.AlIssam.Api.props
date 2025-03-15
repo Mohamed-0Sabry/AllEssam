@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AlIssam.Api.props" />
+</Project>
