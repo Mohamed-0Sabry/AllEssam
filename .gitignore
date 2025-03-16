@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/AlIssam/FileContentIndex
+/AlIssam.Api/bin/Debug/net8.0
