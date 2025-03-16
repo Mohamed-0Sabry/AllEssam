@@ -3,7 +3,7 @@
     "ContainingType": "AlIssam.API.Controllers.AuthController",
     "Method": "ConfirmEmail",
     "RelativePath": "api/auth/email-confirm",
-    "HttpMethod": "POST",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -45,8 +45,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "googleToken",
-        "Type": "AlIssam.API.Controllers.AuthController\u002BGoogleTokenViewModel",
+        "Name": "googleTokenRequest",
+        "Type": "AlIssam.API.Controllers.AuthController\u002BGoogleTokenRequest",
         "IsRequired": true
       }
     ],
@@ -54,14 +54,14 @@
   },
   {
     "ContainingType": "AlIssam.API.Controllers.AuthController",
-    "Method": "LogIn",
+    "Method": "Login",
     "RelativePath": "api/auth/login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "userData",
+        "Name": "request",
         "Type": "AlIssam.API.Dtos.Request.UserLoginRequest",
         "IsRequired": true
       }
@@ -86,14 +86,14 @@
   },
   {
     "ContainingType": "AlIssam.API.Controllers.AuthController",
-    "Method": "RegisterUser",
+    "Method": "Register",
     "RelativePath": "api/auth/register",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "userToCreate",
+        "Name": "request",
         "Type": "AlIssam.API.Dtos.Request.CreateNewUserRequest",
         "IsRequired": true
       }
@@ -443,15 +443,20 @@
   },
   {
     "ContainingType": "AlIssam.API.Controllers.OrderController",
-    "Method": "GetOrderById",
+    "Method": "GetUserOrders",
     "RelativePath": "api/order/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
         "Name": "id",
-        "Type": "System.String",
+        "Type": "",
         "IsRequired": true
       }
     ],
@@ -487,7 +492,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "orderCreateDto",
+        "Name": "orderDto",
         "Type": "AlIssam.API.Dtos.Request.CreateOrderRequest",
         "IsRequired": true
       }
@@ -632,7 +637,7 @@
         "IsRequired": false
       },
       {
-        "Name": "categoryid",
+        "Name": "categoryId",
         "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       }
@@ -848,7 +853,13 @@
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "AlIssam.Api.Controllers.GenericWebhookModel\u00601[[AlIssam.Api.Controllers.WebhookTransactionStatus, AlIssam.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -863,6 +874,38 @@
         "Name": "PaymentId",
         "Type": "System.String",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlIssam.Api.Controllers.PaymentController",
+    "Method": "ExecutePayment",
+    "RelativePath": "execute",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AlIssam.Api.Services.ExecutePaymentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlIssam.Api.Controllers.PaymentController",
+    "Method": "InitiatePayment",
+    "RelativePath": "initiate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AlIssam.Api.Services.InitiatePaymentRequest",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
