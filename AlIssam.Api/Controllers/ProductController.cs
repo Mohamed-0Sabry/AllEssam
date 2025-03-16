@@ -47,6 +47,7 @@ namespace AlIssam.API.Controllers
 
             var form = await Request.ReadFormAsync();
 
+
             request.Quantities = ExtractFormData<ProductOptions>(
                         form,
                         "Quantities",
@@ -60,6 +61,8 @@ namespace AlIssam.API.Controllers
                     );
 
             request.ProductImages = ExtractFiles(form, "Images");
+
+
 
             var result = await _productService.CreateProductAsync(request);
 
@@ -179,17 +182,38 @@ namespace AlIssam.API.Controllers
 
             foreach (var key in form.Keys)
             {
+                if (key == keyPrefix) 
+                {
+                    var value = form[key];
+                    if (value.ToString().StartsWith("[") && value.ToString().EndsWith("]"))
+                    {
+                        var array = JsonConvert.DeserializeObject<List<T>>(value.ToString());
+                        if (array != null)
+                        {
+                            result.AddRange(array);
+                            continue;
+                        }
+                    }
+                }
+
                 if (key.StartsWith(keyPrefix))
                 {
                     var value = form[key];
-                    var convertedValue = converter(value);
-                    result.Add(convertedValue);
+                    try
+                    {
+                        var convertedValue = converter(value);
+                        result.Add(convertedValue);
+                    }
+                    catch (Exception ex)
+                    {
+                        // Log the error
+                        Console.WriteLine($"Error converting {key}: {ex.Message}");
+                    }
                 }
             }
 
             return result;
         }
-
         private static List<IFormFile> ExtractFiles(IFormCollection form, string keyPrefix)
         {
             var files = new List<IFormFile>();

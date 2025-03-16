@@ -126,8 +126,6 @@ namespace AlIssam.API.Services
                 await transaction.RollbackAsync(); // Rollback on failure
                                                    // Log the exception here
                 return (false, new ErrorResponse().CreateErrorResponse("فشل إنشاء المنتج", ex.Message), null);
-
-                return (false, new ErrorResponse().CreateErrorResponse("فشل إنشاء المنتج", "Failed to create product."), null);
             }
         }
 
