@@ -93,6 +93,7 @@ namespace AlIssam.Api.Controllers
                 
                 order.Payment_Status_En = "Paid";
                 order.Payment_Status_Ar = "مدفوع";
+                order.IsPaid = true;
                 await _context.SaveChangesAsync();
 
                 var userName = order.User?.UserName ?? "Unknown User";

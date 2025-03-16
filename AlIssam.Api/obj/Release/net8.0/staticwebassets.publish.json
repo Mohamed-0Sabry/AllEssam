@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FTGK89kbHGr4mqr9L8Hf8Ubm+ICoZw322evStstWcNo=",
+  "Hash": "QEwhJMPZqfsUh9hhmSA/GY2MTKwj/Gt4hcLccrBi64I=",
   "Source": "AlIssam.Api",
   "BasePath": "_content/AlIssam.Api",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "AlIssam.Api\\wwwroot",
       "Source": "AlIssam.Api",
-      "ContentRoot": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AlIssam\\AlIssam.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.Api\\wwwroot\\",
       "BasePath": "_content/AlIssam.Api",
       "Pattern": "**"
     }

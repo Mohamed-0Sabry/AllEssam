@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlIssam.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5eea930cad6c6db55625c5e8d6a4b3bf1a32c963")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cbbc9b4d6f20c00036db20d2d75eb8abb76c2a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlIssam.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlIssam.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
