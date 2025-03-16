@@ -123,10 +123,6 @@ namespace AlIssam.API.Services
             var user = await _userManager.FindByEmailAsync(email);
             if (user == null)
                 return (false, ["User not found"]);
-
-            var confirmResult = await _userManager.ConfirmEmailAsync(user, token);
-            if (!confirmResult.Succeeded)
-                return (false, ["Invalid email confirmation request"]);
             return (true, null);
         }
 
@@ -176,17 +172,24 @@ namespace AlIssam.API.Services
         /// <summary>
         /// Logs in a user with Google authentication
         /// </summary>
-        public async Task<(bool IsSuccess, IEnumerable<string>? ErrorMessages, LoginWithGoogleResponse Response, RefreshToken? RefreshToken, string AccessToken)>
-            LogInWithGoogle(string token)
+        public async Task<(bool IsSuccess, IEnumerable<string>? ErrorMessages, LoginWithGoogleResponse? Response, RefreshToken? RefreshToken, string? AccessToken)>
+       LogInWithGoogle(string token)
         {
-            var googleUser = await _googleAuthService.GetGoogleUserPayload(token);
-            var existingUser = await _userManager.FindByEmailAsync(googleUser.Email);
 
+            var googleUser = await _googleAuthService.GetGoogleUserPayload(token);
+            if (googleUser == null)
+            {
+                return (false, new[] { "Invalid Google token" }, null, null, null);
+            }
+
+            var existingUser = await _userManager.FindByEmailAsync(googleUser.Email);
             if (existingUser != null)
             {
                 var tokens = await _jwtHandlerService.HandleJwtTokensCreation(existingUser);
                 if (!tokens.IsSuccess)
+                {
                     return (false, tokens.ErrorMessages, null, null, null);
+                }
 
                 return (true, null, new LoginWithGoogleResponse
                 {
@@ -195,28 +198,43 @@ namespace AlIssam.API.Services
                     Email = existingUser.Email,
                     Phone_Number = existingUser.PhoneNumber,
                     Role = existingUser.Role
-                }, tokens.RefreshToken, tokens.AccessToken!);
+                }, tokens.RefreshToken, tokens.AccessToken);
             }
 
             var newUser = new User
             {
-                UserName = googleUser.GivenName,
+                UserName = googleUser.GivenName ?? googleUser.Email.Split('@')[0],
                 Email = googleUser.Email,
                 City = "Kuwait",
                 Role = "customer",
-                EmailConfirmed = true,
+                EmailConfirmed = true
             };
 
             var result = await _userManager.CreateAsync(newUser);
             if (!result.Succeeded)
-                return (false, ["Something went wrong"], null, null, null);
+            {
+                var errors = result.Errors.Select(e => e.Description).ToList();
+                Console.WriteLine($"User creation failed: {string.Join(", ", errors)}");
+                return (false, errors, null, null, null);
+            }
+
 
             var userInfo = new UserLoginInfo("google", googleUser.Subject, "GOOGLE");
-            await _userManager.AddLoginAsync(newUser, userInfo);
+            var loginResult = await _userManager.AddLoginAsync(newUser, userInfo);
+            if (!loginResult.Succeeded)
+            {
+                var errors = loginResult.Errors.Select(e => e.Description).ToList();
+                Console.WriteLine($"Adding Google login failed: {string.Join(", ", errors)}");
+                return (false, errors, null, null, null);
+            }
+
 
             var generatedTokens = await _jwtHandlerService.HandleJwtTokensCreation(newUser);
-            if (!generatedTokens.IsSuccess)
-                return (false, generatedTokens.ErrorMessages, null, null, null);
+            if (!generatedTokens.IsSuccess || string.IsNullOrEmpty(generatedTokens.AccessToken))
+            {
+                return (false, generatedTokens.ErrorMessages ?? new[] { "Failed to generate access token." }, null, null, null);
+            }
+
 
             return (true, null, new LoginWithGoogleResponse
             {
@@ -225,8 +243,9 @@ namespace AlIssam.API.Services
                 Email = newUser.Email,
                 Phone_Number = newUser.PhoneNumber,
                 Role = newUser.Role
-            }, generatedTokens.RefreshToken, generatedTokens.AccessToken!);
+            }, generatedTokens.RefreshToken, generatedTokens.AccessToken);
         }
+
 
         public async Task<(bool IsSuccess, IEnumerable<string>? ErrorMessages, string? NewAccessToken)> RefreshToken(string refreshToken, string accessToken)
         {
