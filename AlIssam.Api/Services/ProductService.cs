@@ -152,9 +152,65 @@ namespace AlIssam.API.Services
                 product.Name_En = request.Name_En;
                 product.Slug_En = request.Name_En.GenerateSlug();
                 product.Description_En = request.DescriptionEn;
-                product.Quantity = request.Quantities!;
                 product.Stock = request.Stock;
 
+
+
+if (product.Quantity == null)
+            product.Quantity = new List<ProductOptions>();
+
+if (request.Quantities != null && request.Quantities.Any())
+        {
+            // Get a list of unique request quantities
+            var uniqueRequestQuantities = request.Quantities
+                .GroupBy(q => q.Quantity_In_Unit)
+                .Select(g => g.First())
+                .ToList();
+
+            foreach (var reqQuantity in uniqueRequestQuantities)
+            {
+                var existingQuantity = product.Quantity.FirstOrDefault(q => q.Quantity_In_Unit == reqQuantity.Quantity_In_Unit);
+
+                if (existingQuantity != null)
+                {
+                    // If exists, update it
+                    existingQuantity.Price = reqQuantity.Price;
+                    existingQuantity.Offer = reqQuantity.Offer;
+                    existingQuantity.Default = reqQuantity.Default;
+
+                    _context.Entry(existingQuantity).State = EntityState.Modified;
+                }
+                else
+                {
+                    // If not exists, add new quantity
+                    var newQuantity = new ProductOptions
+                    {
+                        Quantity_In_Unit = reqQuantity.Quantity_In_Unit,
+                        Price = reqQuantity.Price,
+                        Offer = reqQuantity.Offer,
+                        Default = reqQuantity.Default,
+                        ProductId = product.Id
+                    };
+
+                    product.Quantity.Add(newQuantity);
+                    _context.Entry(newQuantity).State = EntityState.Added; // Explicitly mark as added
+                }
+            }
+
+            // Remove quantities that are not in the request
+            var incomingQuantityUnits = uniqueRequestQuantities.Select(q => q.Quantity_In_Unit).ToList();
+            var quantitiesToRemove = product.Quantity
+                .Where(q => !incomingQuantityUnits.Contains(q.Quantity_In_Unit))
+                .ToList();
+
+            foreach (var qtyToRemove in quantitiesToRemove)
+            {
+                if (qtyToRemove.OrderDetailsList == null || !qtyToRemove.OrderDetailsList.Any())
+                {
+                    _context.ProductsOptions.Remove(qtyToRemove);
+                }
+            }
+        }
 
                 var imagesToDelete = product.ProductsImages
                     .Where(p => !request.Product_Images_Paths.Contains(p.Path) && !p.IsCover)
