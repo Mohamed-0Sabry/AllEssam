@@ -25,13 +25,20 @@ namespace AlIssam.API.Services
         /// <exception cref="InvalidJwtException">Thrown for invalid tokens</exception>
         public async Task<GoogleJsonWebSignature.Payload> GetGoogleUserPayload(string token)
         {
-            var googleUser = await GoogleJsonWebSignature.ValidateAsync(token,
-              new GoogleJsonWebSignature.ValidationSettings()
-              {
-                  Audience = new[] { _config.ClientId },
-              });
-            return googleUser;
-        }
+            try
+            {
+                var googleUser = await GoogleJsonWebSignature.ValidateAsync(token,
+                 new GoogleJsonWebSignature.ValidationSettings()
+                 {
+                     Audience = new[] { _config.ClientId }
+                 });
+                return googleUser;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Error validating Google user: {ex.Message}");
+            }
 
+        }
     }
 }

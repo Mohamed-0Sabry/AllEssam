@@ -55,9 +55,6 @@ namespace AlIssam.Api.Controllers
         [HttpGet("callback")]
         public async Task<IActionResult> Callback([FromQuery] PaymentCallbackRequest request)
         {
-            try
-            {
-                
             var statusResponse = await _fatoorahService.GetPaymentStatusAsync(request.PaymentId);
 
             if (!statusResponse.IsSuccess || statusResponse.Data == null)
@@ -68,31 +65,23 @@ namespace AlIssam.Api.Controllers
 
             if (order == null) return NotFound("Order not found");
 
-            //statusResponse.Data.InvoiceStatus  = "Pending"
-            //statusResponse.Data.InvoiceStatus == "Paid" &&
-            if (order.InvoiceId == statusResponse.Data.InvoiceId )
+            if (statusResponse.Data.InvoiceStatus == "Paid" &&
+                (order.Total_Amount == statusResponse.Data.InvoiceValue ||
+                 order.Total_Amount_With_Discount == statusResponse.Data.InvoiceValue ))
             {
                 order.Payment_Status_Ar = "مدفوع";
-                order.Payment_Status_En = "Paid"; 
-                order.Status_En = "Process"; 
-                order.Status_Ar = "قيد المعالجة";
+                order.Payment_Status_En = "paid";
 
                 await _context.SaveChangesAsync();
-                return Redirect("http://164.68.102.161:8070/ar/cart?success_pay=true");
-                //return Ok(new { Message = "Payment successful" });
+                return Redirect("https://alshamiaa.com/ar/cart?success_pay=true");
             }
 
-            BadRequest($"Payment verification failed Data:" +
+            return BadRequest($"Payment verification failed Data:" +
                 $" Response InoiveId: {statusResponse.Data.InvoiceId} " +
                 $" Order InovideId  {order.InvoiceId}  " +
                 $" Inovice Value : {statusResponse.Data.InvoiceValue}" +
                 $"Order Total Amount Value {order.Total_Amount}" +
                 $"Order Total_Amount_With_Discount Value {order.Total_Amount_With_Discount} ");
-            return Redirect("http://26.97.71.252:3000/ar/cart?success_pay=false");
-            }catch ( Exception ex ){
-                BadRequest(" Payment verification failed " + ex.Message);
-                return Redirect("https://alessam.store/ar/cart?success_pay=false");
-            }
         }
     }
 

@@ -17,7 +17,6 @@ namespace AlIssam.DataAccessLayer.Entities
         public string Status_Ar { get; set; }
         public User User { get; set; }
         public string UserId { get; set; }
-        public bool IsPaid { get; set; } = false;
         public  int? DiscountId { get; set; }
         public Discount? Discount { get; set; }
         public decimal Total_Amount { get; set; }

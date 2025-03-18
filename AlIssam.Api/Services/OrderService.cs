@@ -78,7 +78,7 @@ namespace AlIssam.API.Services
             Status_En = order.Status_En,
             Status_Ar = order.Status_Ar,
             Order_Date = order.OrderDate,
-            IsPaid = order.Payment_Status_En == "Paid",
+            IsPaid = order.Payment_Status_En == "Paid" || order.Payment_Status_En == "Cash on Delivery",
             Total_Amount = order.OrdersDetails.Sum(od => od.Offer ?? od.Unit_Price * od.Quantity_Of_Unit),
             Payment_Method = order.Payment_Method,
             OrderDetails = order.OrdersDetails.Select(od => new OrderDetailsResponse

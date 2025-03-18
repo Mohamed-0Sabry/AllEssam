@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlIssam.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b0196c7a1bdbee99a9657ce185179c765ab7e4b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f21dedd0376028a786af5eca76cffbedd8c59b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlIssam.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlIssam.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

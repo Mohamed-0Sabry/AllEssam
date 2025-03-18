@@ -283,10 +283,8 @@ namespace AlIssam.API.Services
                 .Include(p => p.Quantity)
                 .Include(p => p.ProductsImages)
                 .Include(p => p.CategoriesProducts)
-                    .ThenInclude(cp => cp.Category)
-                .Where(p => p.Id != productId &&
-                            p.CategoriesProducts.Any(cp => categoryIds.Contains(cp.CategoryId)) &&
-                            !p.IsEnded)
+                .ThenInclude(cp => cp.Category)
+                .Where(p => p.Id != productId && p.CategoriesProducts.Any(cp => categoryIds.Contains(cp.CategoryId)) && !p.IsEnded)
                 .Select(GetProductResponseSelector)
                 .Take(6)
                 .ToListAsync();

@@ -177,11 +177,6 @@ namespace AlIssam.API.Services
         {
 
             var googleUser = await _googleAuthService.GetGoogleUserPayload(token);
-            if (googleUser == null)
-            {
-                return (false, new[] { "Invalid Google token" }, null, null, null);
-            }
-
             var existingUser = await _userManager.FindByEmailAsync(googleUser.Email);
             if (existingUser != null)
             {
@@ -220,20 +215,14 @@ namespace AlIssam.API.Services
 
 
             var userInfo = new UserLoginInfo("google", googleUser.Subject, "GOOGLE");
-            var loginResult = await _userManager.AddLoginAsync(newUser, userInfo);
-            if (!loginResult.Succeeded)
-            {
-                var errors = loginResult.Errors.Select(e => e.Description).ToList();
-                Console.WriteLine($"Adding Google login failed: {string.Join(", ", errors)}");
-                return (false, errors, null, null, null);
-            }
+            await _userManager.AddLoginAsync(newUser, userInfo);
 
 
             var generatedTokens = await _jwtHandlerService.HandleJwtTokensCreation(newUser);
-            if (!generatedTokens.IsSuccess || string.IsNullOrEmpty(generatedTokens.AccessToken))
-            {
-                return (false, generatedTokens.ErrorMessages ?? new[] { "Failed to generate access token." }, null, null, null);
-            }
+    
+            if (!generatedTokens.IsSuccess)
+                return (false, generatedTokens.ErrorMessages, null, null, null);
+
 
 
             return (true, null, new LoginWithGoogleResponse
