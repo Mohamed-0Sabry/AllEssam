@@ -88,6 +88,7 @@ builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IDashboardService, DashboardService>();
 builder.Services.AddScoped<IDiscountService, DiscountService>();
 builder.Services.AddScoped<IFatoorahService, FatoorahService>();
+builder.Services.AddScoped<IproductOptionService, ProductOptionService>();
 
 
 

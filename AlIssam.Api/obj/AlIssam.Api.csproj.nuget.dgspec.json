@@ -1,33 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.Api\\AlIssam.Api.csproj": {}
+    "D:\\Programming\\UPNQ8\\Allasam\\AllEssam\\AlIssam.Api\\AlIssam.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.Api\\AlIssam.Api.csproj": {
+    "D:\\Programming\\UPNQ8\\Allasam\\AllEssam\\AlIssam.Api\\AlIssam.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.Api\\AlIssam.Api.csproj",
+        "projectUniqueName": "D:\\Programming\\UPNQ8\\Allasam\\AllEssam\\AlIssam.Api\\AlIssam.Api.csproj",
         "projectName": "AlIssam.Api",
-        "projectPath": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.Api\\AlIssam.Api.csproj",
-        "packagesPath": "C:\\Users\\mahm1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.Api\\obj\\",
+        "projectPath": "D:\\Programming\\UPNQ8\\Allasam\\AllEssam\\AlIssam.Api\\AlIssam.Api.csproj",
+        "packagesPath": "C:\\Users\\ascom\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\UPNQ8\\Allasam\\AllEssam\\AlIssam.Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mahm1\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ascom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.DataAccessLayer\\AlIssam.DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.DataAccessLayer\\AlIssam.DataAccessLayer.csproj"
+              "D:\\Programming\\UPNQ8\\Allasam\\AllEssam\\AlIssam.DataAccessLayer\\AlIssam.DataAccessLayer.csproj": {
+                "projectPath": "D:\\Programming\\UPNQ8\\Allasam\\AllEssam\\AlIssam.DataAccessLayer\\AlIssam.DataAccessLayer.csproj"
               }
             }
           }
@@ -40,9 +45,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+          "auditMode": "all"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -107,19 +111,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.14, 8.0.14]"
+              "version": "[8.0.4, 8.0.4]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.14, 8.0.14]"
+              "version": "[8.0.4, 8.0.4]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.14, 8.0.14]"
+              "version": "[8.0.4, 8.0.4]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.14, 8.0.14]"
+              "version": "[8.0.4, 8.0.4]"
             }
           ],
           "frameworkReferences": {
@@ -130,26 +134,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.4.24267.66/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.DataAccessLayer\\AlIssam.DataAccessLayer.csproj": {
+    "D:\\Programming\\UPNQ8\\Allasam\\AllEssam\\AlIssam.DataAccessLayer\\AlIssam.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.DataAccessLayer\\AlIssam.DataAccessLayer.csproj",
+        "projectUniqueName": "D:\\Programming\\UPNQ8\\Allasam\\AllEssam\\AlIssam.DataAccessLayer\\AlIssam.DataAccessLayer.csproj",
         "projectName": "AlIssam.DataAccessLayer",
-        "projectPath": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.DataAccessLayer\\AlIssam.DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\mahm1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mahm1\\OneDrive\\Documents\\GitHub\\Freelancing Project\\AlIssam\\AllEssam\\AlIssam.DataAccessLayer\\obj\\",
+        "projectPath": "D:\\Programming\\UPNQ8\\Allasam\\AllEssam\\AlIssam.DataAccessLayer\\AlIssam.DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\ascom\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\UPNQ8\\Allasam\\AllEssam\\AlIssam.DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mahm1\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ascom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -166,9 +175,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+          "auditMode": "all"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -213,15 +221,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.14, 8.0.14]"
+              "version": "[8.0.4, 8.0.4]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.14, 8.0.14]"
+              "version": "[8.0.4, 8.0.4]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.14, 8.0.14]"
+              "version": "[8.0.4, 8.0.4]"
             }
           ],
           "frameworkReferences": {
@@ -229,7 +237,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.4.24267.66/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

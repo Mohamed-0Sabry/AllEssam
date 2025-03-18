@@ -1,11 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
-using AlIssam.DataAccessLayer.Entities;
+﻿using AlIssam.DataAccessLayer.Entities;
 using AlIssam.API.Dtos.Response;
 using AlIssam.DataAccessLayer;
 using AlIssam.API.Dtos.Request;
 using AlIssam.API.Dtos;
 using AlIssam.API.Extension;
-using System.Linq.Expressions;
 using AlIssam.Api.Services;
 using AlIssam.Api.Services.interFaces;
 
